@@ -1,0 +1,31 @@
+{
+  "name": "zeo-energy-solar-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zeo Energy AI Solar Sales Agent — HeyGen LiveAvatar Dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"vite\"",
+    "build": "vite build",
+    "postinstall": "npx puppeteer browsers install chrome",
+    "start": "node server.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@heygen/liveavatar-web-sdk": "^0.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "puppeteer": "^24.40.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.2.4"
+  }
+}
