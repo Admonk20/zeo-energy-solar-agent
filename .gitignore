@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -24,7 +23,7 @@ dist-ssr
 *.sw?
 
 # Environment
-.env
 
 # Puppeteer Chrome cache
 .cache
+config.bat
