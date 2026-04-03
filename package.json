@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"node server.js\" \"vite\"",
-    "build": "vite build",
+    "build": "npx puppeteer browsers install chrome && vite build",
     "postinstall": "npx puppeteer browsers install chrome",
     "start": "node server.js",
     "preview": "vite preview"
